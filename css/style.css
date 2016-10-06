@@ -1,0 +1,21 @@
+a.major-link {
+	font-size: 1.5em;
+}
+
+a.major-link img {
+	-moz-transform: scaleX(-1);
+	-o-transform: scaleX(-1);
+	-webkit-transform: scaleX(-1);
+	transform: scaleX(-1);
+	filter: FlipH;
+	-ms-filter: "FlipH";
+	padding-left: 0;
+	-webkit-transition: padding-left 0.2s ease;
+	-moz-tranisiton: padding-left 0.2s ease;
+	transition: padding-left 0.2s ease;
+}
+
+a.major-link:hover img {
+	padding-left: 0.15em;
+	margin-right: -0.15em;
+}
