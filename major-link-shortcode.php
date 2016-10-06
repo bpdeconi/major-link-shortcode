@@ -16,7 +16,7 @@ function major_link_shortcode($atts, $content = null) {
     ), $atts));
 
     return sprintf( // The code that's supposed to run when WordPress sees [major-link]
-      '<a href="%s" class="major-link">%s <img src="%s" aria-hidden="true" />',
+      '<a href="%s" class="major-link">%s <img src="%s" aria-hidden="true" /></a>',
       $url,
       $content,
       plugins_url('major-link-shortcode/assets/arrow.svg')
